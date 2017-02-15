@@ -13,12 +13,12 @@ namespace Stos_Console
             liczby.Push(11);
             liczby.Push(2);
             liczby.Push(7);
-
-            foreach(int liczba in liczby)
+            Console.WriteLine("\n Zawartość stosu\n");
+            foreach (int liczba in liczby)
             {
                 Console.WriteLine(liczba);
             }
-
+            Console.WriteLine("\n Zdjęcie ze stosu\n");
             while (liczby.Count != 0)
             {
                 int liczba = (int)liczby.Pop();
